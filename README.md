@@ -21,9 +21,11 @@ yatn start
 
 If everything ok, it will run successfully in your localhost and you will see something like:
 
-> You can now view my-app in the browser.
-> Local: http://localhost:3000
-> On Your Network: http://192.168.0.4:3000
+```bash
+You can now view my-app in the browser.
+Local: http://localhost:3000
+On Your Network: http://192.168.0.4:3000
+```
 
 ##### Add a file named Dockerfile.dev with this instruction
 
@@ -56,6 +58,7 @@ docker build -f Dockerfile.dev .
 If everything is ok, you will see something like
 
 > Successfully built dockerImageId
+
 > Ex. Successfully built 9a586e7bfdd7
 
 Now map your local port with docker port to expose app from docker
@@ -67,9 +70,11 @@ docker run -p LocalPort:DockerPort ImageId
 
 If everything ok, you will see something like and you can browse it from browser
 
-> You can now view frontend in the browser.
-> Local: http://localhost:3000
-> On Your Network: http://172.17.0.2:3000
+```bash
+You can now view frontend in the browser.
+Local: http://localhost:3000
+On Your Network: http://172.17.0.2:3000
+```
 
 ##### Troubleshooting
 
