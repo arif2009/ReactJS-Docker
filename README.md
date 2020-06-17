@@ -68,7 +68,7 @@ docker run -p LocalPort:DockerPort ImageId
 # Ex. docker run -p 3000:3000 9a586e7bfdd7
 ```
 
-If everything ok, you will see something like and you can browse it from browser
+If everything ok, you will see something like below and you can browse it from browser
 
 ```bash
 You can now view frontend in the browser.
@@ -80,6 +80,6 @@ On Your Network: http://172.17.0.2:3000
 
 ---
 
-If you are using `react-scripts` version `3.4.0 +`, you may face an issue with react server startup and port mapping. In that case, you have to add `-it` flag like
+If you are using `react-scripts` (package.json) version `3.4.0 +`, you may face an issue with react server startup and port mapping. In that case, you have to add `-it` flag like
 
 `docker run -it -p 3000:3000 9a586e7bfdd7`
