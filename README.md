@@ -16,7 +16,7 @@ Here I will show the step by step process to run a react App in a Docker Contain
 ```bash
 create-react-app my-app
 cd my-app
-yatn start
+yarn start
 ```
 
 If everything ok, it will run successfully in your localhost and you will see something like:
