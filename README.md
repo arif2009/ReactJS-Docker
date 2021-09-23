@@ -9,6 +9,14 @@ Here I will show the step by step process to run a react App in a Docker Contain
 - [Docker Desktop 2.3.0.3](https://www.docker.com/products/docker-desktop)
 - [Windows-10 with powershell 5.1](https://docs.microsoft.com/en-us/powershell/)
 
+Little theory:
+- Container: Self contained running application, **running instance of an image**.
+- Image: Binary, containing packaged version of your app. **Template of the appliction**.
+- Dockerfile: Defination of an image.
+- Docker hub: **App store** for docker images.
+
+**Dockerfile > Image > Container**
+
 ##### Create a react app and run it to your local machine :
 
 ---
